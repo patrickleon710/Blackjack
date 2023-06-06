@@ -1,8 +1,10 @@
+// || player object containing player details
 let player = {
     name: "Leon",
     chips: 300
 }
 
+// || variables
 let firstCard = getRandomCard()
 let secondCard = getRandomCard()
 let cards = [firstCard, secondCard]
@@ -17,7 +19,7 @@ playerEl.textContent = player.name + ": " + player.chips
 
 
 
-
+// || functions
 function getRandomCard() {  
     let randomIndex = Math.floor(Math.random() * 13) + 1
     if (randomIndex === 1) {
@@ -28,6 +30,7 @@ function getRandomCard() {
     return randomIndex
 }
 
+// Start game
 function startGame() {
     renderGame()
 }
@@ -47,7 +50,7 @@ function renderGame()  {
     }
 }
 
-
+// New card
 function newCard() {
     if (sum < 21) {
         let card = getRandomCard()

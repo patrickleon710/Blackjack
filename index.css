@@ -1,8 +1,11 @@
+/* Universal selector */
 * {    
     box-sizing: border-box;
 }
 
-html {
+/* styling elements */
+ 
+ html {
     height: 100%;
 }
 
@@ -57,9 +60,11 @@ button {
     width: 200px;
 }
 
+/* ID styling */
 #player-el {
     text-align: center;
     color: black;
+    font-weight: bold;
 }
 
 #message {
