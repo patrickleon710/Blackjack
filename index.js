@@ -1,4 +1,4 @@
-/* let player = {
+let player = {
     name: "Leon",
     chips: 300
 }
@@ -56,4 +56,3 @@ function newCard() {
         renderGame()
     }
 }
- */
